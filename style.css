@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #aaa;
+  background-color: pink;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.sec1 {
+  height: 371px;
+  width: 714px;
+  background-color: #000;
+  margin: 200px auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.iprice {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.mainul {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.size {
+  color: #aaa;
+  text-decoration: none;
+  border: 1px solid pink;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.size:hover {
+  background-color: pink;
+  color: #000;
+}
+
+.women {
+  font-size: 10px;
+  color: pink;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.price {
+  color: pink;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.about {
+  font-size: 14px;
+}
+
+.add {
+  background-color: darkred;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.btn2:hover,
+.add:hover {
+  color: black;
+  /* border: solid 1px darkred; */
+  background-color: pink;
+}
+.btn2 {
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 13px 15px;
+  background-color: darkred;
+}
+.btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.chose {
+  margin-top: 10px;
+  font-size: 14px;
+  color: pink;
+}
